@@ -1,4 +1,4 @@
-package com.scode.cloudconfig.cloudconfigserver;
+package com.scode.cloudconfig.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
