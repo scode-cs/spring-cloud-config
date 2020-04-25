@@ -13,13 +13,12 @@ Spring Cloud Config Server. Reads the configurations from GitHub
 ```
 ## Usage
 ```java
+@SpringBootApplication
 @EnableConfigServer
 public class Application {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CloudConfigServerApplication.class, args);
 	}
-
 }
 
 ```
