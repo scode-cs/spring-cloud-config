@@ -3,13 +3,12 @@
 Spring Cloud Config Server. Reads the configurations from GitHub
 ```
 
-## Quering the Configuration
-```bash
-/{application}/{profile}[/{label}]
-/{application}-{profile}.yml
-/{label}/{application}-{profile}.yml
-/{application}-{profile}.properties
-/{label}/{application}-{profile}.properties
+## Dependency
+```xml
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-config-server</artifactId>
+</dependency>
 ```
 ## Enable Spring Cloud Config Server
 ```java
@@ -38,4 +37,12 @@ spring:
         git:
           clone-on-start: true
           uri: https://github.com/scode-cs/spring-cloud-config-data.git
+```
+## Quering the Configuration from Cloud-Config Server
+```bash
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
 ```
