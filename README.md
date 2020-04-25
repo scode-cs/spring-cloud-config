@@ -1,5 +1,7 @@
 # spring-cloud-config
-Spring Cloud Config, Actuator
+```bash
+Spring Cloud Config Server. Reads the configurations from GitHub
+```
 
 ## Quering the Configuration
 ```bash
