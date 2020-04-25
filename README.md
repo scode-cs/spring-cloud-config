@@ -1,6 +1,6 @@
-# spring-cloud-config
+# Spring Cloud Config Server
 ```bash
-Spring Cloud Config Server. Reads the configurations from GitHub
+Spring Cloud Config Server provides an HTTP resource-based API for external configuration (name-value pairs or equivalent YAML content). 
 ```
 
 ### Dependency
