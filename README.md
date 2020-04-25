@@ -1,6 +1,7 @@
 # Spring Cloud Config Server
 ```bash
-Spring Cloud Config Server provides an HTTP resource-based API for external configuration (name-value pairs or equivalent YAML content). 
+Spring Cloud Config Server provides an HTTP resource-based API for external configuration
+(name-value pairs or equivalent YAML content). 
 ```
 
 ### Dependency
