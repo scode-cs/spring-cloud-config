@@ -40,7 +40,7 @@ spring:
           uri: https://github.com/scode-cs/spring-cloud-config-data.git
 ```
 ### Quering the Configuration from Cloud-Config Server
-```bash
+```
 /{application}/{profile}[/{label}]
 /{application}-{profile}.yml
 /{label}/{application}-{profile}.yml
